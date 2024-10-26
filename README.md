@@ -6,6 +6,7 @@ Based on the "Typescript with SWC" `create-vite` template.
 
 ## Uses
 
+-   [Shadcn UI](https://ui.shadcn.com)
 -   [TailwindCSS](https://tailwindcss.com/)
 -   [Vite](https://vitejs.dev/)
 -   [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite)
