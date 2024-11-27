@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
     darkMode: ["class"],
     content: [
@@ -7,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+		  sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
