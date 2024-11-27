@@ -79,12 +79,16 @@ export default function LocationApp() {
                 &gt; Location History, export once, then download and extract
                 the ZIP file. (Only works if cloud sync enabled)
               </p>
-              {/* <p>These steps will create a Timeline.json file you can open with the button above.</p> */}
-              {/* <a className='underline text-purple-600'>source code</a>. */}
-              {/* <div className='flex-grow'/> */}
               <p>
                 Your data is not transmitted to any servers, it is visualized
-                locally in your browser.
+                locally in your browser:{" "}
+                <a
+                  className="underline text-purple-600"
+                  href="https://github.com/alexkreidler/google-location-visualizer"
+                >
+                  source code
+                </a>
+                .
               </p>
             </div>
           )}

@@ -1,6 +1,8 @@
-# Google Maps Location History Viewer
+# Google Location Visualizer
 
-A tool to help you visualize data exported in the new Google Maps Timeline format. Previous tools don't work with the new version. Runs locally in your browser.
+Visualize your location history from Google Maps Timeline data in your browser.
+
+Why did I build this? Previous tools don't work with the new JSON format Google now exports your data in. And I wanted some nice filters and a small (<800 lines of code), public, and privacy-respecting codebase.
 
 ![Screenshot of the location view](<./images/locations.png>)
 
